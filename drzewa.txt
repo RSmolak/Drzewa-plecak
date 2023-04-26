@@ -1,0 +1,12 @@
+mamy drzewo jakieś
+jak sprawidzimy jedną gałąź a w drugiej na pewno jest gorsze rozwiązanie to obcinamy
+żeby sprawdzić czy są gorsze to aproksymujem: chcemy określić dolne ograniczenie gałęzi.
+jeżeli dolne ogr > od pierwszej gałęzi to nie wchodzimy w drugą gałąź
+jest jeszcze drugie ograniczenie - górne co ogranicza z góry ,które może skrócić obliczenia lb(lower boundry)
+przed algorytmem uruchamiamy jakiś prosty zachłanny żeby znaleźć jakieś ub, albo wybrać dużo losowych i wybrać najmniejsze ub
+to algorytm dokładny jest może coś pominąłem
+
+
+beam serach
+modyfikacje upraszczające - można przeszacować ograniczenia-  troche gorszy wynik jakościowy, ale szybciej działa
+                            rozwijamy tylko połowe gałęzi albo coś podobnego
