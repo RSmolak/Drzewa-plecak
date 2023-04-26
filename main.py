@@ -34,6 +34,7 @@ def recursiveTree():
         value += solutions[-1].c_value
         weight += solutions[-1].w_value
 
+
         if weight > capacity or len(left) == 0:
             return
         recursiveTree()
